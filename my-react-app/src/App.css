@@ -1,0 +1,614 @@
+/* Basic styling */
+.dropdownContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Hidden dropdown menu */
+  .dropdownMenu {
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    z-index: 1;
+    cursor:pointer
+  }
+  
+  /* Dropdown options */
+  .dropdownOption {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for dropdown options */
+  .dropdownOption:hover {
+    background-color: #5900ff;
+    cursor: pointer;
+  }
+  .dropdownButton{
+    cursor: pointer;
+    color:black;
+  }
+  #head{
+  /* FREQUENTLY ASKED QUESTIONS */
+  
+  position: absolute;
+  width: 1073px;
+  height: 80px;
+  left: 225px;
+  top: 144px;
+  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 81px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  
+  color: #000000;
+  
+  
+  }
+  .box1 {
+  position: absolute;
+  width: 1255px;
+  height: 163px;
+  left: 50px;
+  top: 289px;
+  
+  background: #1B86E5;
+  border-radius: 30px;
+  }
+  #h1
+  {
+    /* 1.How do I compare insurance quotes? */
+  
+  position: absolute;
+  width: 754px;
+  height: 59px;
+  left: 51px;
+  top: 0px;
+  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  
+  color: #ffffff;
+  }
+  #p1
+  {
+    /* Simply enter your details, such as the type of coverage you need, and our site will display various quotes from different insurers. You can compare coverage options, prices, and features side by side. */
+  
+  position: absolute;
+  width: 1137px;
+  height: 70px;
+  left: 51px;
+  top: 60px;
+  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  
+  color: #ffffff;
+  }
+  .box2 {
+    position: absolute;
+    width: 1255px;
+    height: 163px;
+    left: 0px;
+    top: 189px;
+    
+    background: #1B86E5;
+    border-radius: 30px;
+    }
+    #h2
+    {
+      /* 1.How do I compare insurance quotes? */
+    
+    position: absolute;
+    width: 754px;
+    height: 59px;
+    left: 51px;
+    top: 0px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #ffffff;
+    }
+    #p2
+    {
+      /* Simply enter your details, such as the type of coverage you need, and our site will display various quotes from different insurers. You can compare coverage options, prices, and features side by side. */
+    
+    position: absolute;
+    width: 1137px;
+    height: 70px;
+    left: 51px;
+    top: 60px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    
+    color: #ffffff;
+    }
+    .box3 {
+      position: absolute;
+      width: 1255px;
+      height: 163px;
+      left: 0px;
+      top: 189px;
+      
+      background: #1B86E5;
+      border-radius: 30px;
+      }
+      #h3
+      {
+        /* 1.How do I compare insurance quotes? */
+      
+      position: absolute;
+      width: 754px;
+      height: 59px;
+      left: 51px;
+      top: 0px;
+      
+      font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      
+      color: #ffffff;
+      }
+      #p3
+      {
+        /* Simply enter your details, such as the type of coverage you need, and our site will display various quotes from different insurers. You can compare coverage options, prices, and features side by side. */
+      
+      position: absolute;
+      width: 1137px;
+      height: 70px;
+      left: 51px;
+      top: 60px;
+      
+      font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      
+      color: #ffffff;
+      }
+      .box4 {
+        position: absolute;
+        width: 1255px;
+        height: 163px;
+        left: 0px;
+        top: 189px;
+        
+        background: #1B86E5;
+        border-radius: 30px;
+        }
+        #h4
+        {
+          /* 1.How do I compare insurance quotes? */
+        
+        position: absolute;
+        width: 754px;
+        height: 59px;
+        left: 51px;
+        top: 0px;
+        
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        
+        color: #ffffff;
+        }
+        #p4
+        {
+          /* Simply enter your details, such as the type of coverage you need, and our site will display various quotes from different insurers. You can compare coverage options, prices, and features side by side. */
+        
+        position: absolute;
+        width: 1137px;
+        height: 70px;
+        left: 51px;
+        top: 60px;
+        
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        
+        color: #ffffff;
+        }
+  .head1{
+  /* glossary */
+  
+  position: absolute;
+  width: 380px;
+  height: 80px;
+  left: calc(50% - 380px/2 + 19px);
+  top:200px;
+  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 81px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  
+  color: #000000;
+  
+  
+  }
+  .b1{
+    /* Rectangle 40252 */
+  
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: -400px;
+  top: 150px;
+  
+  background: #1B86E5;
+  border-radius: 50px;
+  
+  }
+  #hb1{
+  /* The individual or entity that owns the insurance policies */
+  
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 30px;
+  top: -40px;
+  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  
+  color: #ffffff;
+  
+  
+  
+  }
+  #bp1{
+  /* The individual or entity that owns the insurance policies */
+  
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 30px;
+  top: 44px;
+  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  
+  color: #ffffff;
+  }
+  .b2{
+    /* Rectangle 40252 */
+  
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 400px;
+  top: 0px;
+  
+  background: #1B86E5;
+  border-radius: 50px;
+  
+  }
+  #hb2{
+  /* The individual or entity that owns the insurance policies */
+  
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 30px;
+  top: -40px;
+  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  
+  color: #ffffff;
+  
+  
+  
+  }
+  #bp2{
+  /* The individual or entity that owns the insurance policies */
+  
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 30px;
+  top: 64px;
+  
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  
+  color: #ffffff;
+  }
+  #hb3{
+    /* The individual or entity that owns the insurance policies */
+    
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 30px;
+    top: -40px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #ffffff;
+    
+    
+    
+    }
+    #bp3{
+    /* The individual or entity that owns the insurance policies */
+    
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 30px;
+    top: 64px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    
+    color: #ffffff;
+    }
+    .b3{
+      /* Rectangle 40252 */
+    
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: -800px;
+    top: 300px;
+    
+    background: #1B86E5;
+    border-radius: 50px;
+    
+    }
+    #hb4{
+    /* The individual or entity that owns the insurance policies */
+    
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 30px;
+    top: -40px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #ffffff;
+    
+    
+    
+    }
+    #bp4{
+    /* The individual or entity that owns the insurance policies */
+    
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 30px;
+    top: 64px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    
+    color: #ffffff;
+    }
+    .b4{
+      /* Rectangle 40252 */
+    
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 400px;
+    top: 0px;
+    
+    background: #1B86E5;
+    border-radius: 50px;
+    
+    }
+    #hb5{
+    /* The individual or entity that owns the insurance policies */
+    
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 30px;
+    top: -40px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #ffffff;
+    
+    
+    
+    }
+    #bp5{
+    /* The individual or entity that owns the insurance policies */
+    
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 30px;
+    top: 89px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    
+    color: #ffffff;
+    }
+    #hb6{
+      /* The individual or entity that owns the insurance policies */
+      
+      position: absolute;
+      width: 200px;
+      height: 100px;
+      left: 30px;
+      top: -40px;
+      
+      font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.04em;
+      
+      color: #ffffff;
+      
+      
+      
+      }
+      #bp6{
+      /* The individual or entity that owns the insurance policies */
+      
+      position: absolute;
+      width: 200px;
+      height: 100px;
+      left: 30px;
+      top: 100px;
+      
+      font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      
+      color: #ffffff;
+      }
+    
