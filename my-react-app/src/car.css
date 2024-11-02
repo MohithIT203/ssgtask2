@@ -1,0 +1,50 @@
+.dropdown-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Base style for all dropdowns */
+  .dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Individual dropdown styles */
+  .car-brand {
+    border-color: #007bff;
+    left: -400px;
+  }
+  
+  .car-model {
+    border-color: #28a745;
+  }
+  
+  .reg-year {
+    border-color: #ffc107;
+  }
+  
+  .manuf-year {
+    border-color: #17a2b8;
+  }
+  
+  .variant {
+    border-color: #6c757d;
+  }
+  
+  .rto {
+    border-color: #dc3545;
+    }
+  /* Focus style */
+  .dropdown:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }

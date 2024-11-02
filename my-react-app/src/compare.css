@@ -1,0 +1,98 @@
+/* Container styling */
+.comparison-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Plan selection and add button */
+  .dropdown-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .company-dropdown,
+  .cost-dropdown,
+  .monthly-investment-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Comparison table */
+  .comparison-table {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .insurance-plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .plan-header {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .detail-item {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Key Features List */
+  .features-list {
+    margin-top: 10px;
+  }
+  
+  .features-list strong {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .feature-item {
+    font-size: 0.9rem;
+    color: #666;
+    list-style-type: disc;
+    margin-left: 15px;
+    text-align: left;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .comparison-table {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .insurance-plan {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+  
