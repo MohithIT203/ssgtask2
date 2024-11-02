@@ -10,9 +10,9 @@ import siteImg6 from '../assets/site-img6.png';
 
 function Home() {
     return (
-        
+
         <div >
-            <Header/>
+            <Header />
             <div className="homediv">
                 <p id="header1">FAST <br></br>EASY AND<br></br>TRANSPARENT<br></br><br></br></p>
                 <p id="header2">THIS IS HOW WE COMPARE POLICIES</p>
@@ -35,6 +35,20 @@ function Home() {
                 <img id="siteimg4" src={siteImg4} alt="Bajaj" />
                 <img id="siteimg5" src={siteImg5} alt="Max Life" />
                 <img id="siteimg6" src={siteImg6} alt="Axis Insurance" />
+            </div>
+            <div className='review'>
+                <h1>WHAT CUSTOMER SAYS</h1>
+                <div className="reviews">
+                    <div className="review1">
+
+                    </div>
+                    <div className="review2">
+
+                    </div>
+                    <div className="review3">
+
+                    </div>
+                </div>
             </div>
         </div>
 
