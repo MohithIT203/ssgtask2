@@ -1,0 +1,160 @@
+.insurance-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 600px;
+  width:400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #46A1F1;
+  color: #fff;
+  position: absolute;
+  top:160px;
+  right: 120px;
+}
+
+.cover, .benefits, .cover-age {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.cover-option1{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 10px;
+  color: black;
+  background-color: white;
+}
+.cover-option2{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 220px;
+  top: -40px;
+  color: black;
+  background-color: white;
+}
+.cover-option3{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 10px;
+  top: -20px;
+  color: black;
+  background-color: white;
+}
+.cover-option4{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 220px;
+  top: -60px;
+  color: black;
+  background-color: white;
+}
+
+#heading2{
+  position: relative;
+  top: -85px;
+}
+
+.benefit-option1{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 10px;
+  top: -90px;
+  color: black;
+  background-color: white;
+}
+
+.benefit-option2{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 220px;
+  top: -129px;
+  color: black;
+  background-color: white;
+}
+
+#benifit-option3{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 10px;
+  top: -110px;
+  color: black;
+  background-color: white;
+
+}
+
+#benefit-option4{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 220px;
+  top: -149px;
+  color: black;
+  background-color: white;
+}
+
+#heading3{
+  position: relative;
+  top: -180px;
+}
+
+.age-option1{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 10px;
+  top: -185px;;
+  color: black;
+  background-color: white;
+}
+.age-option2{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 220px;
+  top: -225px;
+  color: black;
+  background-color: white;
+}
+.age-option3{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 10px;
+  top: -205px;
+  color: black;
+  background-color: white;
+}
+.age-option4{
+  padding: 10px 10px;
+  width: 170px;
+  position: relative;
+  left: 220px;
+  top: -245px;
+  color: black;
+  background-color: white;
+}
+
+
+.get-quote {
+  position: relative;
+  top: -220px;
+  left: 150px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  width: 105px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
