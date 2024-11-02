@@ -7,7 +7,7 @@ function Bike() {
             <Header />
             <div>
                 <img alt="bike-Insurance" src={img}></img>
-                <h1>ENTER YOUR CAR DETAILS</h1>
+                <h1>ENTER YOUR BIKE DETAILS</h1>
                 <div className="form-container">
                     <h2>Bike Details</h2>
                     <form>
@@ -48,6 +48,22 @@ function Bike() {
                             </div>
                         </div>
                         <button type="submit" className="next-button">Next</button>
+                    </form>
+                </div>
+                <div className="content">
+                    <form className='content'>
+                        <h1>WHY LIFE INSURANCE</h1>
+                        <p className='content1'><b>PROTECTION AGAINST LOSS: </b>Car insurance safeguards against financial loss from accidents, theft, or damage to your vehicle.</p>
+                        <p className='content2'><b>LIABIALITY COVERAGE: </b> Covers legal costs and damages if you're responsible for an accident that injures others or damages their property.</p>
+                        <p className='content3'><b>COMPREHENSIVE AND COLLISION: </b>Comprehensive covers non-collision incidents (theft, vandalism), while collision covers damage from accidents.</p>
+                        <p className='content4'><b>UNINSURED MOTORIST COVERAGE: </b>Protects you if you're involved in an accident with a driver who doesn’t have insurance.</p>
+                        <p className='content5'><b>PERSONAL INJURY PROTECTION: </b> Offers medical expenses and lost wages for you and your passengers, regardless of fault.</p>
+                    </form>
+
+                    <form className='quote'>
+                        <b className='quote1'>compare and choose your insurance
+                            now</b>
+                        <button className='quote_button'><b>GET QUOTE</b></button>
                     </form>
                 </div>
             </div>

@@ -35,31 +35,31 @@ function SignupForm() {
         <h2>Signup</h2>
         <form onSubmit={handleSubmit}>
           <div className="Container">
-            <label>Email</label><br></br>
+            <label>Email</label>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-            />
+            /><br></br><br></br>
           </div>
           <div className="form-group">
-            <label>Password</label><br></br>
+            <label>Password</label>
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-            />
+            /><br></br><br></br>
           </div>
           <div className="form-group">
-            <label>Confirm Password</label><br></br>
+            <label>Confirm Password</label>
             <input
               type="password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               required
-            />
+            /><br></br>
           </div>
           {error && <p style={{ color: 'red' }}>{error}</p>}
           {success && <p style={{ color: 'green' }}>{success}</p>}

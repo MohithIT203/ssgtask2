@@ -11,6 +11,9 @@ border-radius: 20px;
 }
 .container button{
     position: absolute;
-    left:10px;
+    left:1px;
 }
-
+h2{
+    position:relative;
+    text-align: center;
+}
