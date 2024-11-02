@@ -1,12 +1,7 @@
-import Header from "./header"
-import Home from "./home";
+import InsuranceOptions from './carp2.jsx';
 function App() {
-  return (
-    <>
-    <Header></Header>
-      <Home />
-    </>
-
-  );
+    return (
+       <InsuranceOptions/>
+    );
 }
-export default App
+export default App;

@@ -1,0 +1,80 @@
+/* Main container styling */
+.insurance-container {
+    background-color: #1B86E5;
+    width: 650px; /* Adjust width as needed */
+    padding: 30px 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 600px; /* Adjust positioning as needed */
+    margin-top: 150px; /* Adjust the distance below the heading */
+    font-family: 'Outfit', sans-serif;
+    color: #000;
+}
+
+/* Section headers */
+.insurance-section h3 {
+    font-size: 16px; /* Matching the label font size */
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Checkbox group layout */
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Spacing between items */
+    width: 100%; /* Ensures full width */
+}
+
+/* Checkbox label styling */
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 8px 12px; /* Consistent padding with input fields */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    width: 68%; /* Each label takes half the width in a row */
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Checkbox input styling */
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Quote button styling */
+.quote-button {
+    margin-top: 20px; /* Same margin for consistency */
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+    background-color: #aaa;
+}
+
+/* Flexbox layout for columns */
+.insurance-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between items */
+    width: 45%; /* Equal width for both columns */
+}
