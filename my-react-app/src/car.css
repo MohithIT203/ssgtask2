@@ -20,8 +20,14 @@
   
   /* Individual dropdown styles */
   .car-brand {
+    .dropdown{
+    position: absolute;
+    width: 754px;
+    height: 59px;
+    left: 450px;
+    top: 200px;
     border-color: #007bff;
-    left: -400px;
+    }
   }
   
   .car-model {
@@ -48,3 +54,34 @@
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
   }
+  /* Rectangle 40179 */
+.box{
+position: fixed;
+width: 640px;
+height: 448px;
+left: 650px;
+top: 302px;
+
+background: #1B86E5;
+border-radius: 49.0269px;
+
+}
+.name
+{
+    position: absolute;
+    width: 754px;
+    height: 59px;
+    left: 450px;
+    top: 200px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}

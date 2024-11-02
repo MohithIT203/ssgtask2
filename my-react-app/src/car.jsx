@@ -24,6 +24,9 @@ function CarDropdowns() {
   const [selectedRTO, setSelectedRTO] = useState("");
 
   return (
+    <div className="name">
+        <h1>enter your car details</h1>
+    <div className="box">
     <div className="dropdown-form">
       {/* Car Brand Dropdown */}
       <select
@@ -100,6 +103,8 @@ function CarDropdowns() {
           <option key={index} value={rto}>{rto}</option>
         ))}
       </select>
+    </div>
+    </div>
     </div>
   );
 }
