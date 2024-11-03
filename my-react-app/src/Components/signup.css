@@ -17,3 +17,9 @@ h2{
     position:relative;
     text-align: center;
 }
+.bghome
+{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

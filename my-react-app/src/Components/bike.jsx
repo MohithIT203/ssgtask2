@@ -9,7 +9,7 @@ function Bike() {
                 <img alt="bike-Insurance" src={img}></img>
                 <h1>ENTER YOUR BIKE DETAILS</h1>
                 <div className="form-container">
-                    <h2>Bike Details</h2>
+                    {/* <h2>Bike Details</h2> */}
                     <form>
                         <div className="form-row">
                             <div className="form-field">
@@ -50,7 +50,7 @@ function Bike() {
                         <button type="submit" className="next-button">Next</button>
                     </form>
                 </div>
-                <div className="content">
+                {/* <div className="content">
                     <form className='content'>
                         <h1>WHY LIFE INSURANCE</h1>
                         <p className='content1'><b>PROTECTION AGAINST LOSS: </b>Car insurance safeguards against financial loss from accidents, theft, or damage to your vehicle.</p>
@@ -65,7 +65,7 @@ function Bike() {
                             now</b>
                         <button className='quote_button'><b>GET QUOTE</b></button>
                     </form>
-                </div>
+                </div> */}
             </div>
         </div>
     )

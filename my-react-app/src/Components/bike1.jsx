@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import './bike1.css'
+import "./bike1.css";
+
 const carBrands = ["Audi", "BMW", "Chevrolet", "Ford", "Honda", "Hyundai", "Toyota", "Volkswagen"];
 const carModels = {
   Audi: ["A3", "A4", "A6", "Q3", "Q5"],
@@ -25,88 +26,111 @@ function CarDropdowns() {
 
   return (
     <div className="name">
-        <h1>enter your car details</h1>
-    <div className="box">
-    <div className="dropdown-form">
-      {/* Car Brand Dropdown */}
-      <select
-        value={selectedBrand}
-        onChange={(e) => {
-          setSelectedBrand(e.target.value);
-          setSelectedModel("");
-        }}
-        className="car-brand-dropdown"
-      >
-        <option value="" disabled>Select Car Brand</option>
-        {carBrands.map((brand, index) => (
-          <option key={index} value={brand}>{brand}</option>
-        ))}
-      </select>
+      <h1>Enter your car details</h1>
+      <div className="box">
+        <div className="form-container">
+          <div className="left-column">
+            {/* Car Brand */}
+            <div className="form-item">
+              <label>Car Brand</label>
+              <select
+                value={selectedBrand}
+                onChange={(e) => {
+                  setSelectedBrand(e.target.value);
+                  setSelectedModel("");
+                }}
+              >
+                <option value="" disabled>Select Car Brand</option>
+                {carBrands.map((brand, index) => (
+                  <option key={index} value={brand}>{brand}</option>
+                ))}
+              </select>
+            </div>
 
-      {/* Car Model Dropdown */}
-      <select
-        value={selectedModel}
-        onChange={(e) => setSelectedModel(e.target.value)}
-        className="car-model-dropdown"
-        disabled={!selectedBrand}
-      >
-        <option value="" disabled>Select Car Model</option>
-        {selectedBrand && carModels[selectedBrand].map((model, index) => (
-          <option key={index} value={model}>{model}</option>
-        ))}
-      </select>
+            {/* Model */}
+            <div className="form-item">
+              <label>Model</label>
+              <select
+                value={selectedModel}
+                onChange={(e) => setSelectedModel(e.target.value)}
+                disabled={!selectedBrand}
+              >
+                <option value="" disabled>Select Car Model</option>
+                {selectedBrand && carModels[selectedBrand].map((model, index) => (
+                  <option key={index} value={model}>{model}</option>
+                ))}
+              </select>
+            </div>
 
-      {/* Registration Year Dropdown */}
-      <select 
-        value={selectedReg}
-        onChange={(e) => setSelectedReg(e.target.value)}
-        className="reg-year-dropdown"
-      >
-        <option value="" disabled>Select Registration Year</option>
-        {years.map((year, index) => (
-          <option key={index} value={year}>{year}</option>
-        ))}
-      </select>
+            {/* CNG */}
+            <div className="form-item">
+              <label>CNG</label>
+              <input type="text" />
+            </div>
+          </div>
 
-      {/* Manufacture Year Dropdown */}
-      <select 
-        value={selectedManuf}
-        onChange={(e) => setSelectedManuf(e.target.value)}
-        className="manuf-year-dropdown"
-      >
-        <option value="" disabled>Select Manufacture Year</option>
-        {years.map((year, index) => (
-          <option key={index} value={year}>{year}</option>
-        ))}
-      </select>
+          <div className="right-column">
+            {/* Registration Year */}
+            <div className="form-item">
+              <label>Registration Year</label>
+              <select 
+                value={selectedReg}
+                onChange={(e) => setSelectedReg(e.target.value)}
+              >
+                <option value="" disabled>Select Registration Year</option>
+                {years.map((year, index) => (
+                  <option key={index} value={year}>{year}</option>
+                ))}
+              </select>
+            </div>
 
-      {/* Variant Dropdown */}
-      <select 
-        value={selectedVar}
-        onChange={(e) => setSelectedVar(e.target.value)}
-        className="variant-dropdown"
-      >
-        <option value="" disabled>Select Variant</option>
-        {variants.map((variant, index) => (
-          <option key={index} value={variant}>{variant}</option>
-        ))}
-      </select>
+            {/* Manufacture Year */}
+            <div className="form-item">
+              <label>Manufacture Year</label>
+              <select 
+                value={selectedManuf}
+                onChange={(e) => setSelectedManuf(e.target.value)}
+              >
+                <option value="" disabled>Select Manufacture Year</option>
+                {years.map((year, index) => (
+                  <option key={index} value={year}>{year}</option>
+                ))}
+              </select>
+            </div>
 
-      {/* RTO Dropdown */}
-      <select 
-        value={selectedRTO}
-        onChange={(e) => setSelectedRTO(e.target.value)}
-        className="rto-dropdown"
-      >
-        <option value="" disabled>Select RTO</option>
-        {rtos.map((rto, index) => (
-          <option key={index} value={rto}>{rto}</option>
-        ))}
-      </select>
-    </div>
-    </div>
+            {/* Variant */}
+            <div className="form-item">
+              <label>Select Variant</label>
+              <select 
+                value={selectedVar}
+                onChange={(e) => setSelectedVar(e.target.value)}
+              >
+                <option value="" disabled>Select Variant</option>
+                {variants.map((variant, index) => (
+                  <option key={index} value={variant}>{variant}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* RTO */}
+            <div className="form-item">
+              <label>Select RTO</label>
+              <select 
+                value={selectedRTO}
+                onChange={(e) => setSelectedRTO(e.target.value)}
+              >
+                <option value="" disabled>Select RTO</option>
+                {rtos.map((rto, index) => (
+                  <option key={index} value={rto}>{rto}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+        </div>
+        <button className="next-button">Next</button>
+      </div>
     </div>
   );
 }
 
-export default CarDropdowns
+export default CarDropdowns;

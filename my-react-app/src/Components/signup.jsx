@@ -29,7 +29,7 @@ function SignupForm() {
   };
 
   return (
-    <div>
+    <div className="bghome">
       <Home />
       <div className="container">
         <h2>Signup</h2>
@@ -38,6 +38,7 @@ function SignupForm() {
             <label>Email</label>
             <input
               type="email"
+              placeholder="Enter Email id"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -48,6 +49,7 @@ function SignupForm() {
             <input
               type="password"
               value={password}
+              placeholder="Enter Password"
               onChange={(e) => setPassword(e.target.value)}
               required
             /><br></br><br></br>
@@ -56,6 +58,7 @@ function SignupForm() {
             <label>Confirm Password</label>
             <input
               type="password"
+              placeholder="Confirm Password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               required
