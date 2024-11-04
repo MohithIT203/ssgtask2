@@ -1,9 +1,10 @@
 import MyForm from "./LIFE/life";
+import InsuranceForm from "./LIFE/form2";
 function App() 
 {
   return (
     <>
-      <MyForm/>
+    <InsuranceForm/>
     </>
 
   );
