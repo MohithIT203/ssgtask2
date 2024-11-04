@@ -9,8 +9,8 @@
   /* Base style for all dropdowns */
   .dropdown {
     width: 100%;
-    padding: 10px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
     appearance: none;
@@ -84,4 +84,9 @@ border-radius: 49.0269px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #000000;
+}
+
+#carpic{
+  width: 100px;
+  height: 200px;
 }

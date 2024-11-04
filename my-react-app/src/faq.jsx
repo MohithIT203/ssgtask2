@@ -21,7 +21,7 @@ function Food()
             <p1 id="p4">Simply enter your details, such as the type of coverage you need, and our site will display various quotes from different insurers. You can compare coverage options, prices, and features side by side.
             </p1>
         <div className="head1">
-                <h1>GLOSSARY</h1>
+                <h1 className='glosary'>GLOSSARY</h1>
         <div className="b1">
             <h2 id="hb1">policy holder</h2>
             <p1 id="bp1"> The individual or entity that owns the insurance policy.
