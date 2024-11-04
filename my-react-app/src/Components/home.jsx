@@ -7,7 +7,7 @@ import siteImg3 from '../assets/site-img3.png';
 import siteImg4 from '../assets/site-img4.jpg';
 import siteImg5 from '../assets/site-img5.png';
 import siteImg6 from '../assets/site-img6.png';
-
+import './App.css';
 function Home() {
     return (
 
