@@ -1,0 +1,25 @@
+.container{
+
+position: absolute;
+width: 500px;
+height: 500px;
+left: calc(50% - 544.47px/2 + 12.19px);
+top: 140px;
+
+background: #46A1F1;
+border-radius: 20px;
+}
+.container button{
+    position: absolute;
+    left:1px;
+}
+h2{
+    position:relative;
+    text-align: center;
+}
+.bghome
+{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

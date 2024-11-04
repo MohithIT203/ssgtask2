@@ -1,17 +1,18 @@
-import Header from "./header.jsx";
-import image1 from './assets/insurance-image1.jpg';
-import image2 from './assets/insuranceimage-2.png';
-import siteImg1 from './assets/Site-img1.png';
-import siteImg2 from './assets/site-img2.webp';
-import siteImg3 from './assets/site-img3.png';
-import siteImg4 from './assets/site-img4.jpg';
-import siteImg5 from './assets/site-img5.png';
-import siteImg6 from './assets/site-img6.png';
-
+import Header from './header.jsx';
+import image1 from "../assets/insurance-image1.jpg";
+import image2 from '../assets/insuranceimage-2.png';
+import siteImg1 from '../assets/Site-img1.png';
+import siteImg2 from '../assets/site-img2.webp';
+import siteImg3 from '../assets/site-img3.png';
+import siteImg4 from '../assets/site-img4.jpg';
+import siteImg5 from '../assets/site-img5.png';
+import siteImg6 from '../assets/site-img6.png';
+import './App.css';
 function Home() {
     return (
-        
+
         <div >
+            <Header />
             <div className="homediv">
                 <p id="header1">FAST <br></br>EASY AND<br></br>TRANSPARENT<br></br><br></br></p>
                 <p id="header2">THIS IS HOW WE COMPARE POLICIES</p>
@@ -34,6 +35,20 @@ function Home() {
                 <img id="siteimg4" src={siteImg4} alt="Bajaj" />
                 <img id="siteimg5" src={siteImg5} alt="Max Life" />
                 <img id="siteimg6" src={siteImg6} alt="Axis Insurance" />
+            </div>
+            <div className='review'>
+                <h1>WHAT CUSTOMER SAYS</h1>
+                <div className="reviews">
+                    <div className="review1">
+
+                    </div>
+                    <div className="review2">
+
+                    </div>
+                    <div className="review3">
+
+                    </div>
+                </div>
             </div>
         </div>
 
