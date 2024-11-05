@@ -1,4 +1,8 @@
 /* Basic styling */
+body{
+  overflow-x: hidden;
+}
+
 .dropdownContainer {
     position: relative;
     display: inline-block;
@@ -40,7 +44,7 @@
   width: 1073px;
   height: 80px;
   left: 225px;
-  top: 30px;
+  top: 100px;
   
   font-family: 'Outfit';
   font-style: normal;
@@ -279,7 +283,7 @@
   width: 380px;
   height: 80px;
   left: calc(50% - 380px/2 + 19px);
-  top:200px;
+  top:240px;
   
   font-family: 'Outfit';
   font-style: normal;

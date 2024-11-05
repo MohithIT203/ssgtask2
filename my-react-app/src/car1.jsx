@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import "./s.css";
-
 const carBrands = ["Audi", "BMW", "Chevrolet", "Ford", "Honda", "Hyundai", "Toyota", "Volkswagen"];
 const carModels = {
   Audi: ["A3", "A4", "A6", "Q3", "Q5"],
@@ -26,7 +24,9 @@ function CarDropdowns() {
 
   return (
     <div className="name">
+        
       <h1>Enter your car details</h1>
+      
       <div className="box">
         <div className="form-container">
           <div className="left-column">
@@ -64,7 +64,7 @@ function CarDropdowns() {
 
             {/* CNG */}
             <div className="form-item">
-              <label >CNG</label>
+              <label>CNG</label>
               <input type="text" className="cng"/>
             </div>
           </div>
@@ -128,7 +128,38 @@ function CarDropdowns() {
           </div>
         </div>
         <button className="next-button">Next</button>
+        <div>
+      <form className="content">
+        <h1 className="title">WHY CAR INSURANCE</h1>
+        <p className="content1">
+          <b>PROTECTION AGAINST LOSS: </b>Car insurance safeguards against
+          financial loss from accidents, theft, or damage to your vehicle.
+        </p>
+        <p className="content2">
+          <b>LIABIALITY COVERAGE: </b> Covers legal costs and damages if you're
+          responsible for an accident that injures others or damages their
+          property.
+        </p>
+        <p className="content3">
+          <b>COMPREHENSIVE AND COLLISION: </b>Comprehensive covers non-collision
+          incidents (theft, vandalism), while collision covers damage from
+          accidents.
+        </p>
+        <p className="content4">
+          <b>UNINSURED MOTORIST COVERAGE: </b>Protects you if you're involved in
+          an accident with a driver who doesn’t have insurance.
+        </p>
+      </form>
+
+      <form className="quote">
+        <b className="quote1">compare and choose your insurance now</b>
+        <button className="quote_button">
+          <b>GET QUOTE</b>
+        </button>
+      </form>
       </div>
+      </div>
+      <img src={carpic}alt='profil pic' className="Carimg"></img>
     </div>
   );
 }

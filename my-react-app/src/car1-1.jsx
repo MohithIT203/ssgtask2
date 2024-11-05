@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./s.css";
+
+import "./caf1-1.css";
 
 const carBrands = ["Audi", "BMW", "Chevrolet", "Ford", "Honda", "Hyundai", "Toyota", "Volkswagen"];
 const carModels = {
@@ -16,7 +17,7 @@ const years = Array.from({ length: 31 }, (_, i) => new Date().getFullYear() - i)
 const variants = ["Standard", "Deluxe", "Sports", "Limited"];
 const rtos = ["MH-01", "MH-02", "KA-01", "KA-02", "DL-01", "TN-01", "UP-01"];
 
-function CarDropdowns() {
+function Car1Dropdowns() {
   const [selectedBrand, setSelectedBrand] = useState("");
   const [selectedModel, setSelectedModel] = useState("");
   const [selectedReg, setSelectedReg] = useState("");
@@ -25,13 +26,13 @@ function CarDropdowns() {
   const [selectedRTO, setSelectedRTO] = useState("");
 
   return (
-    <div className="name">
+    <div className="car1name1">
       <h1>Enter your car details</h1>
-      <div className="box">
-        <div className="form-container">
-          <div className="left-column">
+      <div className="car1box1">
+        <div className="car1form-container">
+          <div className="car1left-column">
             {/* Car Brand */}
-            <div className="form-item">
+            <div className="car1form-item">
               <label>Car Brand</label>
               <select
                 value={selectedBrand}
@@ -48,7 +49,7 @@ function CarDropdowns() {
             </div>
 
             {/* Model */}
-            <div className="form-item">
+            <div className="car1form-item">
               <label>Model</label>
               <select
                 value={selectedModel}
@@ -63,15 +64,15 @@ function CarDropdowns() {
             </div>
 
             {/* CNG */}
-            <div className="form-item">
-              <label >CNG</label>
-              <input type="text" className="cng"/>
+            <div className="car1form-item">
+              <label>CNG</label>
+              <input type="text" />
             </div>
           </div>
 
-          <div className="right-column">
+          <div className="car1right-column">
             {/* Registration Year */}
-            <div className="form-item">
+            <div className="car1form-item">
               <label>Registration Year</label>
               <select 
                 value={selectedReg}
@@ -85,7 +86,7 @@ function CarDropdowns() {
             </div>
 
             {/* Manufacture Year */}
-            <div className="form-item">
+            <div className="car1form-item">
               <label>Manufacture Year</label>
               <select 
                 value={selectedManuf}
@@ -99,7 +100,7 @@ function CarDropdowns() {
             </div>
 
             {/* Variant */}
-            <div className="form-item">
+            <div className="car1form-item">
               <label>Select Variant</label>
               <select 
                 value={selectedVar}
@@ -113,7 +114,7 @@ function CarDropdowns() {
             </div>
 
             {/* RTO */}
-            <div className="form-item">
+            <div className="car1form-item">
               <label>Select RTO</label>
               <select 
                 value={selectedRTO}
@@ -128,9 +129,39 @@ function CarDropdowns() {
           </div>
         </div>
         <button className="next-button">Next</button>
+        <div>
+      <form className="contentcar1">
+        <h1 className="titlecar1">WHY CAR INSURANCE</h1>
+        <p className="content1car1">
+          <b>PROTECTION AGAINST LOSS: </b>Car insurance safeguards against
+          financial loss from accidents, theft, or damage to your vehicle.
+        </p>
+        <p className="content2car1">
+          <b>LIABIALITY COVERAGE: </b> Covers legal costs and damages if you're
+          responsible for an accident that injures others or damages their
+          property.
+        </p>
+        <p className="content3car1">
+          <b>COMPREHENSIVE AND COLLISION: </b>Comprehensive covers non-collision
+          incidents (theft, vandalism), while collision covers damage from
+          accidents.
+        </p>
+        <p className="content4car1">
+          <b>UNINSURED MOTORIST COVERAGE: </b>Protects you if you're involved in
+          an accident with a driver who doesn’t have insurance.
+        </p>
+      </form>
+
+      <form className="quotecar1">
+        <b className="quote1car1">compare and choose your insurance now</b>
+        <button className="quote_buttoncar1">
+          <b>GET QUOTE</b>
+        </button>
+      </form>
+      </div>
       </div>
     </div>
   );
 }
 
-export default CarDropdowns;
+export default Car1Dropdowns;

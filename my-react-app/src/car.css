@@ -1,4 +1,4 @@
-.dropdown-form {
+/* .dropdown-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -6,7 +6,7 @@
     margin: 0 auto;
   }
   
-  /* Base style for all dropdowns */
+  
   .dropdown {
     width: 100%;
     padding: 20px;
@@ -18,7 +18,7 @@
     color: #333;
   }
   
-  /* Individual dropdown styles */
+  
   .car-brand {
     .dropdown{
     position: absolute;
@@ -49,12 +49,12 @@
   .rto {
     border-color: #dc3545;
     }
-  /* Focus style */
+ 
   .dropdown:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
   }
-  /* Rectangle 40179 */
+ 
 .box{
 position: fixed;
 width: 640px;
@@ -89,4 +89,4 @@ border-radius: 49.0269px;
 #carpic{
   width: 100px;
   height: 200px;
-}
+} */

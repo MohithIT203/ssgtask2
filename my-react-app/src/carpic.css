@@ -1,0 +1,10 @@
+.carppic{
+    position: absolute;
+    width: 700px;
+    height: 4000px;
+    left: 80px;
+    top: 300px;
+    max-width: 100%;
+    height: auto;
+
+}

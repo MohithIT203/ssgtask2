@@ -1,0 +1,209 @@
+
+.bike1name {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the heading */
+    font-family: 'Outfit', sans-serif;
+    color: #000;
+    position: relative;
+    margin-top: 50px; /* Adjust this to move the entire component down */
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  /* Blue box container */
+  .bike1box {
+    background-color: #1B86E5;
+    width: 640px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 300px; 
+    margin-top: 20px; 
+  }
+  
+  /* Form container to hold two columns */
+  .bike1form-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Left and right columns */
+  .bike1left-column, .bike1right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between items */
+    width: 45%; /* Equal width for both columns */
+  }
+  
+  /* Individual form item styling */
+  .bike1form-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bike1form-item label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  /* Dropdowns and input styling */
+  .bike1form-item select,
+  .bike1form-item input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Focus styling */
+  .bike1form-item select:focus,
+  .bike1form-item input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  .bike1form-item .cng{
+    width: 264px;
+  }
+  
+  /* Button styling */
+  .bike1next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .bike1next-button:hover {
+    background-color: #aaa;
+  }
+  .bike1quote {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 1200px;
+    height: 325px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #46a1f1;
+    color: #fff;
+    position: absolute;
+    top: 1325px;
+    left: 30px;
+  }
+  
+  .bike1quote1 {
+    font-size: 80px;
+    color: black;
+  }
+  
+  .bike1quote_button {
+    position: relative;
+    left: 500px;
+    top: 45px;
+    width: 200px;
+    height: 70px;
+    font-size: larger;
+    border-radius: 40px;
+    border: none;
+  
+    background-color: #d9d9d9;
+  }
+  .bike1content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 1200px;
+    height: 530px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #46a1f1;
+    color: #fff;
+    position: absolute;
+    top: 700px;
+    left: 30px;
+  }
+  
+  .bike1title {
+    color: black;
+    top: 8px;
+    position: absolute;
+    right: 490px;
+  }
+  .bike1content p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .content1bike1 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 25px;
+    right: 10px;
+    top: 50px;
+  }
+  
+  .content2bike1 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 25px;
+    right: 10px;
+    top: 20px;
+  }
+  
+  .content3bike1 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 25px;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .content4bike1 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 20px;
+    right: 10px;
+    top: 1px;
+  }
+  
+  .content5bike1 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 20px;
+    right: 10px;
+    top: 1px;
+  }
+
+  .Bikeimg
+  {
+    height: 500px;
+    position: relative;
+    top: -430px;
+    right: 360px;
+  }

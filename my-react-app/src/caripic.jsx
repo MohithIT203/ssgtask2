@@ -1,8 +1,9 @@
-import carppic from '../ssgtask2/my-react-app/src/carinspic.png';
+import carppic from './assets/carinspic.png';
+import './carpic.css';
 function carinspic()
 {
     return(
-        <div className="carpic">
+        <div className="carppic">
             <img src={carppic}alt='profil pic'></img>
         </div>
     );

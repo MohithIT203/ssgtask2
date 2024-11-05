@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+  
+body {
+    overflow-x: hidden;
+}
+  
+.car2insurance-container {
+    background-color: #1B86E5;
+    max-width: 90%;
+    width: 650px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px auto;
+    color: #000;
+    left: 400px;
+    margin-left: 650px;
+}
+  
+.car2h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    top: 100px;
+}
+  
+.car2insurance-section h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    left: 200px;
+}
+  
+.car2checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.car2checkbox-group label {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+}
+  
+.car2checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+  
+.car2quote-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    margin-left: 60px;
+}
+  
+.quote-button:hover {
+    background-color: #aaa;
+}
+  
+.car2insurance-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+.car2left-column, .car2right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+  
+.contentcar2 p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .contentcar2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 1300px;
+    height: 530px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #46a1f1;
+    color: #fff;
+    position: absolute;
+    top: 740px;
+    left: 30px;
+  }
+  
+  .titlecar2 {
+    color: black;
+    top: -160px;
+    position: absolute;
+    right: 550px;
+  }
+  
+  .content1car2 {
+    line-height: 1.5;
+    position: relative;
+    right: 10px;
+    top: 50px;
+  }
+  
+  .content2car2 {
+    line-height: 1.5;
+    position: relative;
+    right: 10px;
+    top: 20px;
+  }
+  
+  .content3car2 {
+    line-height: 1.5;
+    position: relative;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .content4car2 {
+    line-height: 1.5;
+    position: relative;
+    right: 10px;
+    top: 1px;
+  }
+    
+  .car2quote {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 1300px;
+    height: 325px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #46a1f1;
+    color: #fff;
+    position: absolute;
+    top: 1300px;
+    right: 20px;
+    bottom: 200px;
+  }
+  
+  .car2quote1 {
+    font-size: 80px;
+    color: black;
+  }
+  
+  .car2quote_button {
+    position: relative;
+    left: 470px;
+    top: 25px;
+    width: 200px;
+    height: 70px;
+    font-size: larger;
+    border-radius: 40px;
+    border: none;
+  
+    background-color: #d9d9d9;
+  }

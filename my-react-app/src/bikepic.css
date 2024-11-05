@@ -1,0 +1,9 @@
+.bikeppic{
+    position: absolute;
+    width: 170px;
+    height: 100px;
+    left: 80px;
+    top: 300px;
+    max-width: 200%;
+
+}

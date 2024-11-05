@@ -1,0 +1,195 @@
+/* Main container styling */
+.car1name1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the heading */
+    font-family: 'Outfit', sans-serif;
+    color: #000;
+    position: relative;
+    margin-top: 50px; /* Adjust this to move the entire component down */
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  /* Blue box container */
+  .car1box1 {
+    background-color: #1B86E5;
+    width: 640px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 325px; /* Moves the box to the right */
+    margin-top: 20px; /* Adjusts the distance below the heading */
+  }
+  
+  /* Form container to hold two columns */
+  .car1form-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Left and right columns */
+  .car1left-column, .car1right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between items */
+    width: 45%; /* Equal width for both columns */
+  }
+  
+  /* Individual form item styling */
+  .car1form-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .car1form-item label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  /* Dropdowns and input styling */
+  .car1form-item select,
+  .car1form-item input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Focus styling */
+  .car1form-item select:focus,
+  .car1form-item input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button styling */
+  .car1next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .car1next-button:hover {
+    background-color: #aaa;
+  }
+  .contentcar1 p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .contentcar1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 1250px;
+    height: 530px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #46a1f1;
+    color: #fff;
+    position: absolute;
+    top: 600px;
+    left: -630px;
+  }
+  
+  .titlecar1 {
+    color: black;
+    top: -200px;
+    position: absolute;
+    right: 490px;
+  }
+  
+  .content1car1 {
+    line-height: 1.5;
+    position: relative;
+    right: 10px;
+    top: 50px;
+  }
+  
+  .content2car1 {
+    line-height: 1.5;
+    position: relative;
+    right: 10px;
+    top: 20px;
+  }
+  
+  .content3car1 {
+    line-height: 1.5;
+    position: relative;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .content4car1 {
+    line-height: 1.5;
+    position: relative;
+    right: 10px;
+    top: 1px;
+  }
+  
+  .quotecar1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 1250px;
+    height: 325px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #46a1f1;
+    color: #fff;
+    position: absolute;
+    top: 1150px;
+    left: -625px;
+  }
+  
+  .quote1car1 {
+    font-size: 80px;
+    color: black;
+  }
+  
+  .quote_buttoncar1 {
+    position: relative;
+    left: 500px;
+    top: 25px;
+    width: 200px;
+    height: 70px;
+    font-size: larger;
+    border-radius: 40px;
+    border: none;
+  
+    background-color: #d9d9d9;
+  }
+  .Carimg
+  {
+    height: 500px;
+    position: relative;
+    top: 0px;
+    right: 360px;
+  }

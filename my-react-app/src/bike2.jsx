@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import "./carp2.css";
+import pic from './assets/bikeinspic.png';
+import './bike2.css'
 
-function InsuranceOptions() {
+function BikeOptions() {
   const [selectedOptions, setSelectedOptions] = useState({
     planType: { comprehensive: false, thirdParty: false },
     benefits: { roadAssistance: false, engineProtection: false, zeroDepreciation: false, assistance: false },
@@ -18,15 +19,19 @@ function InsuranceOptions() {
     }));
   };
 
+  const handleQuoteClick = () => {
+    // Handle the quote logic here, e.g., send the selected options to an API or log them
+    console.log("Selected Options: ", selectedOptions);
+  };
+
   return (
-    <div className="insurance-container">
-      <h1 className="h1">choose your preferences</h1>
-      <div className="insurance-content">
-        {/* Left Column for Plan Type and Benefits */}
-        <div className="left-column">
-          <div className="insurance-section">
+    <div className="bike2insurance-container">
+      <h1 className="bike2h1">Choose Your Preferences</h1>
+      <div className="bike2insurance-content">
+        <div className="bike2left-column">
+          <div className="bike2insurance-section">
             <h3>Plan Type</h3>
-            <div className="checkbox-group">
+            <div className="bike2checkbox-group">
               <label>
                 <input
                   type="checkbox"
@@ -46,9 +51,9 @@ function InsuranceOptions() {
             </div>
           </div>
 
-          <div className="insurance-section">
+          <div className="bike2insurance-section">
             <h3>Benefits</h3>
-            <div className="checkbox-group">
+            <div className="bike2checkbox-group">
               <label>
                 <input
                   type="checkbox"
@@ -85,11 +90,10 @@ function InsuranceOptions() {
           </div>
         </div>
 
-        {/* Right Column for Additional Cover */}
-        <div className="right-column">
-          <div className="insurance-section">
+        <div className="bike2right-column">
+          <div className="bike2insurance-section">
             <h3>Additional Cover</h3>
-            <div className="checkbox-group">
+            <div className="bike2checkbox-group">
               <label>
                 <input
                   type="checkbox"
@@ -116,13 +120,36 @@ function InsuranceOptions() {
               </label>
             </div>
           </div>
-
-          {/* Quote Button */}
-          <button className="quote-button">Get Quote</button>
+          <button className="bike2quote-button" onClick={handleQuoteClick}>Get Quote</button>
         </div>
       </div>
+
+      <div className="bike2Content">
+        <h1 className="bike2title">Why Bike Insurance</h1>
+        <p className="content1bike2">
+          <b>Protection Against Loss:</b> Bike insurance safeguards against financial loss from accidents, theft, or damage to your vehicle.
+        </p>
+        <p className="content2bike2">
+          <b>Liability Coverage:</b> Covers legal costs and damages if you're responsible for an accident that injures others or damages their property.
+        </p>
+        <p className="content3bike2">
+          <b>Comprehensive and Collision:</b> Comprehensive covers non-collision incidents (theft, vandalism), while collision covers damage from accidents.
+        </p>
+        <p className="content4bike2">
+          <b>Uninsured Motorist Coverage:</b> Protects you if you're involved in an accident with a driver who doesn’t have insurance.
+        </p>
+      </div>
+
+      <form className="Quote">
+        <b className="Quote1">Compare and choose your insurance now</b>
+        <button type="button" className="Quote_button" onClick={handleQuoteClick}>
+          <b>GET QUOTE</b>
+        </button>
+      </form>
+      
+      <img src={pic} alt="Bike Insurance" className="Bikeimg2" />
     </div>
   );
 }
 
-export default InsuranceOptions;
+export default BikeOptions;

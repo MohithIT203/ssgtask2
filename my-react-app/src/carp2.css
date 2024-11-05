@@ -1,55 +1,74 @@
-/* Main container styling */
+
 .insurance-container {
     background-color: #1B86E5;
-    width: 650px; /* Adjust width as needed */
-    padding: 30px 20px;
+    width: 400px; 
+    padding: 20px 20px;
     border-radius: 25px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     position: relative;
-    left: 600px; /* Adjust positioning as needed */
-    margin-top: 150px; /* Adjust the distance below the heading */
+    left: 600px; 
+    margin-top: 150px; 
     font-family: 'Outfit', sans-serif;
     color: #000;
 }
+.h1
+{
+    position: absolute;
+    width: 1073px;
+    height: 80px;
+    left: -140px;
+    top: -130px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
 
-/* Section headers */
+
 .insurance-section h3 {
-    font-size: 16px; /* Matching the label font size */
+    font-size: 16px; 
     color: #fff;
     margin-bottom: 10px;
 }
 
-/* Checkbox group layout */
+
 .checkbox-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Spacing between items */
-    width: 100%; /* Ensures full width */
+    gap: 20px; 
+    width: 100%; 
 }
 
-/* Checkbox label styling */
+
 .checkbox-group label {
     display: flex;
     align-items: center;
     background-color: #f9f9f9;
-    padding: 8px 12px; /* Consistent padding with input fields */
+    padding: 8px 12px; 
     border-radius: 5px;
     font-size: 16px;
     color: #333;
-    width: 68%; /* Each label takes half the width in a row */
+    width: 68%; 
     font-family: 'Outfit', sans-serif;
 }
 
-/* Checkbox input styling */
+
 .checkbox-group input[type="checkbox"] {
     margin-right: 10px;
 }
 
-/* Quote button styling */
+
 .quote-button {
-    margin-top: 20px; /* Same margin for consistency */
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #ccc;
     color: #333;
@@ -65,7 +84,7 @@
     background-color: #aaa;
 }
 
-/* Flexbox layout for columns */
+
 .insurance-content {
     display: flex;
     justify-content: space-between;
@@ -75,6 +94,6 @@
 .left-column, .right-column {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Spacing between items */
-    width: 45%; /* Equal width for both columns */
-}
+    gap: 20px; 
+    width: 45%; 
+} 

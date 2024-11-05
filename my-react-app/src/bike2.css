@@ -1,0 +1,201 @@
+
+  
+  
+.bike2insurance-container {
+    background-color: #1B86E5;
+    max-width: 100%;
+    width: 650px;
+    height: 550px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+    color: #000;
+    margin-left: 630px;
+    position: relative;
+}
+  
+.bike2h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+}
+  
+.bike2insurance-section h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+  
+ .bike2checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+} 
+  
+.bike2checkbox-group label {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    width: 80%;
+}
+  
+.bike2checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+  
+.bike2quote-button {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    margin-bottom: 100px;
+    bottom: 200px;
+}
+
+.bike2quote-button:hover {
+    background-color: #aaa;
+}
+  
+.bike2insurance-content {
+    display: flex;
+    justify-content: space-between;
+    
+    top: auto;
+}
+  
+.bike2left-column, .bike2right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    bottom: 300px;
+}
+  
+.bike2Content{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 1200px;
+    height: 530px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #46a1f1;
+    color: #fff;
+    position: absolute;
+    top: 700px;
+    left: -600px;
+}
+  
+.bike2title {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: 00px;
+}
+  
+.bike2content p {
+    font-size: 25px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+  
+.Quote {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 1200px;
+    height: 325px;
+    
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #46a1f1;
+    color: #fff;
+    position: relative;
+    top: 790px;
+    left: -314px;
+  }
+  
+  .Quote1 {
+    font-size: 80px;
+    color: black;
+  }
+  
+  .Quote_button {
+    position: relative;
+    left: 500px;
+    top: 30px;
+    width: 200px;
+    height: 70px;
+    font-size: larger;
+    border-radius: 40px;
+    border: none;
+  
+    background-color: #d9d9d9;
+  }
+.Bikeimg2
+{
+  height:700px;
+  width: 550px;
+  position: relative;
+  top: -800px;
+  right: 360px;
+  margin-right:600px ;
+  margin-top: -75px;
+}
+.content1bike2 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 25px;
+    right: 10px;
+    top: -20px;
+  }
+  
+  .content2bike2 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 25px;
+    right: 10px;
+    top: -40px;
+  }
+  
+  .content3bike2 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 25px;
+    right: 10px;
+    top: -60px;
+  }
+  
+  .content4bike2 {
+    line-height: 1.5;
+    position: relative;
+    font-size: 20px;
+    right: 10px;
+    top: -80px;
+    font-size: 25px;
+  }

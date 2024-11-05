@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import './car.css'
+import carppic from './assets/carinspic.png';
+import './'
 const carBrands = ["Audi", "BMW", "Chevrolet", "Ford", "Honda", "Hyundai", "Toyota", "Volkswagen"];
 const carModels = {
   Audi: ["A3", "A4", "A6", "Q3", "Q5"],
@@ -25,6 +26,7 @@ function CarDropdowns() {
 
   return (
     <div>
+       <img src={carppic}alt='profil pic'></img>
       <div className="name">
         <h1>enter your car details</h1>
         <div className="box">
