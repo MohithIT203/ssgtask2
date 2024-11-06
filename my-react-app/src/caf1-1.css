@@ -8,16 +8,7 @@
     position: relative;
     margin-top: 50px; /* Adjust this to move the entire component down */
   }
-  
-  h1 {
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  
+
   /* Blue box container */
   .car1box1 {
     background-color: #1B86E5;
@@ -52,7 +43,6 @@
     display: flex;
     flex-direction: column;
   }
-  
   .car1form-item label {
     font-size: 16px;
     color: #fff;
@@ -80,7 +70,7 @@
   }
   
   /* Button styling */
-  .car1next-button {
+  .next-button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #ccc;
@@ -88,11 +78,11 @@
     font-size: 16px;
     font-weight: bold;
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     cursor: pointer;
   }
   
-  .car1next-button:hover {
+  .next-button:hover {
     background-color: #aaa;
   }
   .contentcar1 p {
@@ -119,9 +109,9 @@
   
   .titlecar1 {
     color: black;
-    top: -200px;
+    top: -100px;
     position: absolute;
-    right: 490px;
+    right: 420px;
   }
   
   .content1car1 {
@@ -176,7 +166,7 @@
   
   .quote_buttoncar1 {
     position: relative;
-    left: 500px;
+    left: 00px;
     top: 25px;
     width: 200px;
     height: 70px;
