@@ -13,6 +13,7 @@
     color: #000;
     margin-left: 780px;
     top: -80px;
+    left: -150px;
     position: relative;
 }
   
@@ -104,7 +105,7 @@
     color: #fff;
     position: absolute;
     top: 700px;
-    left: -670px;
+    left: -600px;
 }
   
 .bike2title {
@@ -137,7 +138,7 @@
     color: #fff;
     position: relative;
     top: 800px;
-    left: -371px;
+    left: -300px;
   }
   
   .Quote1 {

@@ -17,8 +17,8 @@ body {
     align-items: center;
     margin: 150px auto;
     color: #000;
-    left: 400px;
-    margin-left: 750px;
+    left: 00px;
+    margin-left: 625px;
     margin-top: 50px;
 }
   
@@ -114,7 +114,7 @@ body {
     color: #fff;
     position: absolute;
     top: 800px;
-    left: 120px;
+    left: 40px;
   }
   
   .titlecar2 {
@@ -166,7 +166,7 @@ body {
     color: #fff;
     position: absolute;
     top: 1425px;
-    right: 120px;
+    right: 40px;
     bottom: 200px;
   }
   
