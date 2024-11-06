@@ -1,6 +1,6 @@
 import Header from './header.jsx';
 import "./bike3.css";
-function bikepage3() {
+function Bikepage3() {
     return (
         <>
             <Header />
@@ -127,4 +127,4 @@ function bikepage3() {
         </>
     )
 }
-export default bikepage3;
+export default Bikepage3;
